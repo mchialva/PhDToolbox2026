@@ -1,0 +1,132 @@
+---
+title: "This is your first **Quarto** document"
+author: "Matteo Chialva & Martino Adamo"
+date: "2024-01-24"
+format:
+  html:
+    code-fold: true
+    toc: true
+    toc-title: Contents
+    toc-location: left
+bibliography: citations.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Results 1
+
+::: panel-tabset
+### Tab One
+
+Hey! I'm the first tab!
+
+### Tab Two
+
+Hey! I'm the second tab!
+
+:::
+
+## Results 2
+
+::: {.panel-tabset .nav-pills}
+### Tab One
+
+Hey! I'm the first tab!
+
+### Tab Two
+
+Hey! I'm the second tab!
+
+:::
+## First Section
+
+Here you can write your first paragraph. You can also add citations contained in 'citations.bib' file [@Hu-et-al]. See <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+```{r}
+#| echo: true
+summary(cars)
+```
+
+## Second section (Plots)
+
+You can also embed plots, for example:
+
+```{r}
+#| echo: true
+#| include: true
+  
+plot(pressure)
+
+```
+
+::: {layout="[ [1], [2,3] ]"}
+```{r}
+#| echo: true
+#| include: true
+#| fig-cap: "(A) Cars plot"
+library(ggplot2)
+plot(cars)
+```
+
+```{r}
+#| echo: true
+#| include: true
+#| fig-cap: "(B) Pressure plot"
+library(ggplot2)
+plot(pressure)
+```
+
+```{r}
+#| echo: true
+#| include: true
+#| fig-cap: "(C) Iris plot"
+#| fig-cap-location: bottom
+library(ggplot2)
+ggplot(iris, aes(Species, Sepal.Width, fill=Species))+geom_boxplot()
+```
+:::
+
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+
+```{r}
+#| echo: true
+#| include: true
+  
+plot(pressure)
+
+```
+
+Note that the `echo: false` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+#| echo: false        # show or not the chunk
+#| code-fold: false   # show or not the code-folding in this chunk
+#| include: true      # show or not the code
+#| output: false      # show the output of the function
+library(dplyr)
+```
+
+You also can add silent code that won't be reported in your final report (include: false)
+
+```{bash}
+# execute the following bash code
+pwd
+```
+
+## References

@@ -1,0 +1,66 @@
+---
+title: "This is your first **RMarkdown** document"
+author: "Matteo Chialva & Martino Adamo"
+date: "2024-01-24"
+output:
+  html_document:
+    theme: default #default, bootstrap, cerulean, cosmo, darkly, flatly, journal, lumen, paper, readable, sandstone, simplex, spacelab, united, and yeti.
+    highlight: default #default, tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, textmate
+    toc: yes
+    toc_float: true
+  pdf_document:
+    toc: yes
+bibliography: citations.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Results 1 {.tabset}
+
+### Tab One
+
+Hey! I'm the first tab!
+
+### Tab Two
+
+Hey! I'm the second tab!
+
+## Results 2 {.tabset .tabset-pills}
+
+### Tab One
+
+Hey! I'm the first tab!
+
+### Tab Two
+
+Hey! I'm the second tab!
+
+## First Section
+
+Here you can write your first paragraph. You can also add citations contained in 'citations.bib' file [@Hu-et-al]. See <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Second section (Plots)
+
+You can also embed plots, for example:
+
+```{r pressure, include=T, echo=T}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter prevents printing of the R code that generated the plot.
+
+```{r include=F}
+library(rmarkdown)
+```
+
+You also can add silent code that won't be reported in your final report (include=F)
+
+## References

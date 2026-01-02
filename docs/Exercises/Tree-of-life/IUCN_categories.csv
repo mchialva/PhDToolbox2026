@@ -1,0 +1,14 @@
+code,category,code_current
+VU,Vulnerable,VU
+V,Vulnerable,VU
+CR,Critically Endangered,CR
+EN,Endangered,EN
+E,Endangered,EN
+NT,Near Threatened,NT
+LC,Least Concern,LC
+DD,Data Deficient,DD
+EW,Extinct in the Wild,EW
+EX,Extinct,EX
+Ex,Extinct,EX
+NE,Not Evaluated,NE
+N.E.,Not Evaluated,NE

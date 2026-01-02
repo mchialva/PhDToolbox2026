@@ -1,0 +1,80 @@
+---
+title: "This is your first **Quarto** Presentation"
+author: "Matteo Chialva & Martino Adamo"
+date: "2024-01-24"
+format:
+  revealjs:
+      #slideNumber: true
+      controls: true
+      show-slide-number: print
+      incremental: false
+      progress: true
+      chalkboard: true
+embed-resources: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## [Slide Title]{style="text-align:center; display: block;"}
+Slide content
+
+- bullet 1
+- bullet 2
+
+
+## [R Markdown]{style="font-size: 60px; font-weight: bold; color:red; font-family: verdana;" .tit .p-span-center}
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+::: incremental
+-   Bullet 1
+-   Bullet 2
+-   Bullet 3
+:::
+
+::: notes
+Speaker notes go here.
+:::
+
+## Slide with R Output
+
+```{r}
+#| echo: true
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+# In the morning
+
+## Getting up
+
+-   Turn off alarm
+-   Get out of bed
+
+## Breakfast
+
+-   Eat eggs
+-   Drink coffee
+
+## In the evening
+
+# Dinner
+
+-   Eat spaghetti
+-   Drink wine
+
+# Going to sleep
+
+-   Get in bed
+-   Count sheep
