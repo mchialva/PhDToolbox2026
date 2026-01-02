@@ -1,5 +1,5 @@
 # [PhDToolbox2026](https://mchialva.github.io/PhDToolbox2026/)
-This is the data repository for the 2025 PhDToolBox course (PhD in Biological Sciences and Applied Biotechnologies, University of Torino, Italy)
+This is the data repository for the 2026 PhDToolBox course (PhD in Biological Sciences and Applied Biotechnologies, University of Torino, Italy)
 
 R-base, R-advanced and R-mapping modules
 
