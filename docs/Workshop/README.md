@@ -11,7 +11,7 @@ If you are a coding enthusiast you can develop your project alone, otherwise you
 > Don't wait till the end of the lessons to start developing your project, starting earlier during the course period allows you to progressively develop your ideas and to interact with us if needed.
 
 ***
-You'll find [here](https://github.com/mchialva/PhDToolbox2026/blob/main/Workshop/Final_workshop.pdf) a short description of each of the suggested dataset:
+You'll find [here](https://github.com/mchialva/PhDToolbox2026/blob/main/docs/Workshop/Final_workshop.pdf) a short description of each of the suggested dataset:
 
 ### [Dataset 1 - vegetation survey](https://www.davidzeleny.net/anadat-r/doku.php/en:data:aravo)
 ### [Dataset 2 - haunted places](https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-10-10)
