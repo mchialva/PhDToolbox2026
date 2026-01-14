@@ -16,19 +16,19 @@ Venue: All lesssons will take place in Auletta I and Auletta II, Orto Botanico, 
 
 ### Day 1 - January 8, 2026, 15:00-17:00
 - [Introduction to R: Data types and objects classes - Part I](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson_1_RBasics.pdf)
+- [Final Data wrangling & visulisation workshop](https://github.com/mchialva/PhDToolbox2026/tree/main/docs/Workshop/)
 
 ### Day 2 - January 12, 2026, 14:00-16:00
 - [Introduction to R: Data types and objects classes - Part II](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson_1_RBasics.pdf)
-- [Data Organization in Spreadsheets](
-https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson_2_spreadsheets.pdf)
-- [Data wrangling with tidyverse - Part I](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_2_data_wrangling.pdf)
 
 ### Day 3 - January 15, 2026, 15:00-17:00
-- [Data wrangling with tidyverse - Part II](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_2_data_wrangling.pdf)
-- [Tips & Tricks](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_3_tips.pdf)
+- [Data wrangling with tidyverse - Part I](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_2_data_wrangling.pdf)
+- [Data Organization in Spreadsheets](
+https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson_2_spreadsheets.pdf)
 
 ### Day 4 - January 16, 2026, 11:00-13:00
-- [Data wrangling with tidyverse - Part III](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_2_data_wrangling.pdf)
+- [Data wrangling with tidyverse - Part II](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_2_data_wrangling.pdf)
+- [Tips & Tricks](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_3_tips.pdf)
 - [Base graphics  in R](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_1/Lesson_3_basegraphics.pdf)
 
 ## Stream 2 R for Advanced Users
@@ -47,7 +47,7 @@ https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson
 - [Working with lists](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_2/Lesson_3_lists.pdf)
 - [Reproducible data reporting with RMarkdown and Quarto](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_2/Lesson_3_rmarkdown.pdf)
 
-### Day 5 - February 2, 2026, 09:00-12:00
+### Day 5 - February 2/3, 2026, TBD
 - [Final Data wrangling & visulisation workshop](https://github.com/mchialva/PhDToolbox2026/tree/main/docs/Workshop/)
 
 # [Exercises](https://mchialva.github.io/PhDToolbox2026/Exercises/)
