@@ -10,7 +10,7 @@ Contacts: matteo.chialva@unito.it or martino.adamo@unito.it
 
 Course Schedule
 
-Venue: All lesssons will take place in Auletta I and Auletta II, Orto Botanico, Viale Mattioli 25, Torino, Italy (Department of Life Sciences and Systems Biology, University of Torino)
+Venue: Lessons will take place in Auletta I, Orto Botanico, Viale Mattioli 25, Torino, Italy (Department of Life Sciences and Systems Biology, University of Torino) where not differently mentioned.
 
 ## Stream 1 R for Data Science: R for Beginners
 
@@ -47,7 +47,7 @@ https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons%2FStream_1%2FLesson
 - [Working with lists](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_2/Lesson_3_lists.pdf)
 - [Reproducible data reporting with RMarkdown and Quarto](https://github.com/mchialva/PhDToolbox2026/blob/main/Lessons/Stream_2/Lesson_3_rmarkdown.pdf)
 
-### Day 5 - February 2/3, 2026, TBD
+### Day 5 - February 3, 2026, 14:00-18:00 (Aula 1, DBIOS, Via Accademia Albertina 13)
 - [Final Data wrangling & visulisation workshop](https://github.com/mchialva/PhDToolbox2026/tree/main/docs/Workshop/)
 
 # [Exercises](https://mchialva.github.io/PhDToolbox2026/Exercises/)
